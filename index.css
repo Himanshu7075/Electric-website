@@ -1,0 +1,962 @@
+*{
+    margin: 0;
+    border: 0;
+    border: border-box;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+}
+
+.background-image {
+    background-image: url("./photo/background image.jpg");
+    height: 700px;
+    width: 100%;
+}
+
+.nev {
+    height: 60px;
+    width: 100%;
+}
+.nevbar {
+    display: flex;
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 31);
+    position: fixed;
+}
+
+.left-logo{
+    height: 30px;
+    width: 30px;
+    background-size: cover;
+    margin: -10px 0px 10px 10px;
+}
+
+@media(min-width:300px) and (max-width:400px) {
+
+}
+.left-logo-text{
+    color: rgb(206, 206, 206);
+    font-size: 1;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mid{
+    margin-left: 4%;
+    
+}
+.mid1{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.mid1:hover {
+    color: rgb(120, 120, 120);
+    text-decoration: underline;
+}
+
+.main{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.main-text {
+    color: white;
+    border-radius: 20px;
+    height: 300px;
+    width: 40%;
+}
+
+.main-text1 {
+    font-size: 2rem;
+    margin-top: 10%;
+    margin-left: 35%;
+}
+
+.main-text2 {
+    font-size: 4rem;
+    margin-left: 5%;
+}
+
+.main-pic {
+    background-size: cover;
+    border-radius: 10px;
+    height: 400px;
+    width: 70%;
+    box-shadow: -4px 4px 10px 15px;
+    animation: photos 10s step-start 2s infinite;
+}
+
+@keyframes photos {
+    20% {
+        background-image: url("./photo/big box1.jpg");
+    }
+
+    40% {
+        background-image: url("./photo/big box2.jpg")
+    }
+
+    60% {
+        background-image: url("./photo/index photo1.avif")
+    }
+
+    80% {
+        background-image: url("./photo/big box 4.webp")
+    }
+
+    100% {
+        background-image: url("./photo/big box3.jpg")
+    }
+}
+
+.main-pic:hover {
+    cursor: pointer;
+}
+
+.main2 {
+    height: 8%;
+    width: 40%;
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.our-mission {
+    background-color: rgb(240, 240, 240);
+    height: 500px;
+    width: 100%;
+    border-top: 1px solid rgb(255, 255, 255);
+    margin-top: 30px;
+}
+
+.our-mission-bignev {
+    margin-top: 100px;
+}
+.our-mission-heading {
+    font-size: 3rem;
+    margin-left: 10%;
+    color: rgb(0, 0, 0);
+}
+
+.our-mission-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.our-mission-content-para {
+    height:300px;
+    width: 40%;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.our-mission-content-pic {
+    height: 250px;
+    width: 40%;
+    margin-top: -130px;
+    background-image: url("./photo/our mission.webp");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.our-mission-content-pic:hover {
+    cursor: pointer;
+}
+
+.our-mission-heading2 {
+    margin-left: 52%;
+    font-size: 2rem;
+    margin-top: 150px;
+}
+
+.empowering {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+.empoering-bignev {
+    margin-top: 30px;
+    border-top: 1px solid white;
+}
+
+.empoering-heading2 {
+    font-size: 2rem;
+    margin-top: 80px;
+    margin-left: 53%;
+    color: rgb(0, 0, 0);
+}
+
+.empoering-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.empoering-content-pic {
+    height: 200px;
+    width: 40%;
+    margin-top: -30px;
+    background-image: url("./photo/empowering.jpg");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.empoering-content-para {
+    height: 100px;
+    width: 35%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.service {
+    height: 470px;
+    width: 100%;
+    margin-top: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.service-pic {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.service-pic1 {
+    height: 300px;
+    width: 40%;
+    background-image: url("./photo/battery service pic1.png");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.service-pic2 {
+    height: 310px;
+    width: 40%;
+    background-image: url("./photo/battery service pic2.jpeg");
+    background-size: cover;
+    border-radius: 8px;
+}
+
+
+
+.service-para-button {
+    background-color: rgb(0,0,31);
+    color: white;
+    height: 40px;
+    width: 15%;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    margin: 20px 0px 0px 45%;
+    box-shadow: 5px 5px 10px 5px rgb(122, 122, 122);
+}
+
+.service-para-button:hover {
+    background-color: rgb(0,0,150);
+}
+
+.revolution {
+    height: 400px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.revolution-content {
+    height: 300px;
+    width: 40%;
+    margin-top: 10%;
+}
+
+.revolution-pic {
+    background-image: url("./photo/revolution photo.jpeg");
+    background-size: cover;
+    height: 300px;
+    width: 40%;
+    border-radius: 7px;
+}
+
+.revolution-content-text1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.revolution-content-text2 {
+    font-size: 1.1rem;
+    color: rgb(74, 74, 74);
+    margin-top: 15px;
+}
+
+.footer {
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-color: rgb(0, 0, 83);
+}
+
+.footer-box {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+}
+
+.footer-box1 {
+    height: 240px;
+    width: 50%;
+    
+}
+
+.footer-box1-upper-text {
+    font-size: 1.3rem;
+    margin-left: 5%;
+}
+
+.footer-box1-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-top: 2%;
+}
+
+.footer-box1-form {
+    height: 200px;
+    width: 45%;
+}
+
+.footer-box1-form-input {
+    margin: 0% 0px 0px 8%;
+}
+
+.footer-input {
+    margin-top:5%;
+    width: 90%;
+}
+
+.footer-box1-submit {
+    height: 25px;
+    width: 120px;
+    margin: 8% 0% 0% 30%;
+    border-radius: 4px;
+}
+
+.footer-box1-submit:hover {
+    background-color: rgb(172, 172, 172);
+}
+
+.footer-box2-text {
+    height: 200px;
+    width: 45%;
+}
+
+
+.footer-box2-text1 {
+    font-size: 1.2rem;
+    margin-left: 8%;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-top: 2%;
+}
+
+.footer-box2 {
+    height: 240px;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-left: 1px solid red;
+}
+
+.contactus {
+    height: 220px;
+    width: 45%;
+}
+
+.contactus-text {
+    font-size: 1.5rem;
+    color: gray;
+    margin-left: 20%;
+}
+
+.contactus-whatsup {
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.contactus-phone {
+    display: flex;
+}
+
+.contactus-phone-heading {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 8% 0% 0% 5%;
+}
+
+.contactus-phone-text {
+    margin: 10% 0% 0% 3%;
+}
+
+.contactus-email {
+    display: flex;
+}
+
+.contactus-email-heading {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 5% 0% 0% 5%;
+}
+
+.contactus-email-text {
+    margin: 6% 0% 0% 3%;
+}
+
+.address {
+    height: 220px;
+    width: 45%;
+}
+
+.address-text {
+    font-size: 1.5rem;
+    color: gray;
+    margin-left: 25%;
+}
+
+.address-box {
+    height: 100px;
+    width: 80%;
+    margin: 5% 0% 0% 15%;
+}
+
+.footer-last {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-lastbox {
+    height: 40px;
+    width: 40%;
+    color: white;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+@media(min-width:300px) and (max-width:400px) {
+    *{
+        margin: 0;
+        border: 0;
+        border: border-box;
+    }
+    .header {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .background-image {
+        background-image: url("./photo/background image.jpg");
+        height: 450px;
+        width: 100%;
+    }
+    
+    .nev {
+        height: 60px;
+        width: 100%;
+    }
+    .nevbar {
+        display: flex;
+        height: 60px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 31);
+        position: fixed;
+    }
+    
+    .left-logo{
+        height: 10px;
+        width: 20px;
+        background-size: cover;
+        margin: -10px 0px 20px 10px;
+    }
+    
+    .left-logo-text{
+        color: rgb(206, 206, 206);
+        font-size: 0.7rem;
+        font-weight: 700;
+        margin-left: 10px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .mid{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .mid1{
+        text-decoration: none;
+        font-size: 0.5rem;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .mid1:hover {
+        color: rgb(120, 120, 120);
+        text-decoration: underline;
+    }
+    
+    .main{
+        height: 300px;
+        width: 100%;
+    }
+    
+    .main-text {
+        color: white;
+        border-radius: 20px;
+        height: 200px;
+        width: 40%;
+    }
+    
+    .main-text1 {
+        font-size: 1.2rem;
+        margin-top: 35%;
+        margin-left: 5%;
+    }
+    
+    .main-text2 {
+        font-size: 2rem;
+        margin-left: 5%;
+    }
+    
+    .main-pic {
+        background-size: cover;
+        border-radius: 10px;
+        height: 150px;
+        width: 60%;
+        box-shadow: -4px 4px 10px 15px;
+        animation: photos 10s step-start 2s infinite;
+    }
+    
+    @keyframes photos {
+        20% {
+            background-image: url("./photo/big box1.jpg");
+        }
+    
+        40% {
+            background-image: url("./photo/big box2.jpg")
+        }
+    
+        60% {
+            background-image: url("./photo/index photo1.avif")
+        }
+    
+        80% {
+            background-image: url("./photo/big box 4.webp")
+        }
+    
+        100% {
+            background-image: url("./photo/big box3.jpg")
+        }
+    }
+    
+    .main-pic:hover {
+        cursor: pointer;
+    }
+    
+    .main2 {
+        height: 8%;
+        width: 40%;
+        color: white;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    
+    .our-mission {
+        background-color: rgb(240, 240, 240);
+        height: 200px;
+        width: 100%;
+        border-top: 1px solid rgb(255, 255, 255);
+        margin-top: 30px;
+    }
+    
+    .our-mission-bignev {
+        margin-top: 100px;
+    }
+    .our-mission-heading {
+        font-size: 3rem;
+        margin-left: 10%;
+        color: rgb(0, 0, 0);
+    }
+    
+    .our-mission-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .our-mission-content-para {
+        height:300px;
+        width: 40%;
+        font-size: 1.1rem;
+        margin-top: 20px;
+        color: rgb(0, 0, 0);
+    }
+    
+    .our-mission-content-pic {
+        height: 250px;
+        width: 40%;
+        margin-top: -130px;
+        background-image: url("./photo/our mission.webp");
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .our-mission-content-pic:hover {
+        cursor: pointer;
+    }
+    
+    .our-mission-heading2 {
+        margin-left: 52%;
+        font-size: 2rem;
+        margin-top: 150px;
+    }
+    
+    .empowering {
+        height: 300px;
+        width: 100%;
+        background-color: rgb(240, 240, 240);
+    }
+    
+    .empoering-bignev {
+        margin-top: 30px;
+        border-top: 1px solid white;
+    }
+    
+    .empoering-heading2 {
+        font-size: 2rem;
+        margin-top: 80px;
+        margin-left: 53%;
+        color: rgb(0, 0, 0);
+    }
+    
+    .empoering-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .empoering-content-pic {
+        height: 200px;
+        width: 40%;
+        margin-top: -30px;
+        background-image: url("./photo/empowering.jpg");
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .empoering-content-para {
+        height: 100px;
+        width: 35%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    
+    .service {
+        height: 470px;
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: 1px solid gray;
+    }
+    
+    .service-pic {
+        height: 350px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .service-pic1 {
+        height: 300px;
+        width: 40%;
+        background-image: url("./photo/battery service pic1.png");
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    .service-pic2 {
+        height: 310px;
+        width: 40%;
+        background-image: url("./photo/battery service pic2.jpeg");
+        background-size: cover;
+        border-radius: 8px;
+    }
+    
+    
+    
+    .service-para-button {
+        background-color: rgb(0,0,31);
+        color: white;
+        height: 40px;
+        width: 15%;
+        border-radius: 8px;
+        font-size: 1.2rem;
+        margin: 20px 0px 0px 45%;
+        box-shadow: 5px 5px 10px 5px rgb(122, 122, 122);
+    }
+    
+    .service-para-button:hover {
+        background-color: rgb(0,0,150);
+    }
+    
+    .revolution {
+        height: 400px;
+        width: 100%;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .revolution-content {
+        height: 300px;
+        width: 40%;
+        margin-top: 10%;
+    }
+    
+    .revolution-pic {
+        background-image: url("./photo/revolution photo.jpeg");
+        background-size: cover;
+        height: 300px;
+        width: 40%;
+        border-radius: 7px;
+    }
+    
+    .revolution-content-text1 {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-left: 5%;
+    }
+    
+    .revolution-content-text2 {
+        font-size: 1.1rem;
+        color: rgb(74, 74, 74);
+        margin-top: 15px;
+    }
+    
+    .footer {
+        height: 300px;
+        width: 100%;
+        color: white;
+        background-color: rgb(0, 0, 83);
+    }
+    
+    .footer-box {
+        height: 250px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 1px solid black;
+    }
+    
+    .footer-box1 {
+        height: 240px;
+        width: 50%;
+        
+    }
+    
+    .footer-box1-upper-text {
+        font-size: 1.3rem;
+        margin-left: 5%;
+    }
+    
+    .footer-box1-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.9rem;
+        margin-top: 2%;
+    }
+    
+    .footer-box1-form {
+        height: 200px;
+        width: 45%;
+    }
+    
+    .footer-box1-form-input {
+        margin: 0% 0px 0px 8%;
+    }
+    
+    .footer-input {
+        margin-top:5%;
+        width: 90%;
+    }
+    
+    .footer-box1-submit {
+        height: 25px;
+        width: 120px;
+        margin: 8% 0% 0% 30%;
+        border-radius: 4px;
+    }
+    
+    .footer-box1-submit:hover {
+        background-color: rgb(172, 172, 172);
+    }
+    
+    .footer-box2-text {
+        height: 200px;
+        width: 45%;
+    }
+    
+    
+    .footer-box2-text1 {
+        font-size: 1.2rem;
+        margin-left: 8%;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    ul li {
+        margin-top: 2%;
+    }
+    
+    .footer-box2 {
+        height: 240px;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        border-left: 1px solid red;
+    }
+    
+    .contactus {
+        height: 220px;
+        width: 45%;
+    }
+    
+    .contactus-text {
+        font-size: 1.5rem;
+        color: gray;
+        margin-left: 20%;
+    }
+    
+    .contactus-whatsup {
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+    
+    .contactus-phone {
+        display: flex;
+    }
+    
+    .contactus-phone-heading {
+        font-size: 20px;
+        font-weight: 900;
+        margin: 8% 0% 0% 5%;
+    }
+    
+    .contactus-phone-text {
+        margin: 10% 0% 0% 3%;
+    }
+    
+    .contactus-email {
+        display: flex;
+    }
+    
+    .contactus-email-heading {
+        font-size: 20px;
+        font-weight: 900;
+        margin: 5% 0% 0% 5%;
+    }
+    
+    .contactus-email-text {
+        margin: 6% 0% 0% 3%;
+    }
+    
+    .address {
+        height: 220px;
+        width: 45%;
+    }
+    
+    .address-text {
+        font-size: 1.5rem;
+        color: gray;
+        margin-left: 25%;
+    }
+    
+    .address-box {
+        height: 100px;
+        width: 80%;
+        margin: 5% 0% 0% 15%;
+    }
+    
+    .footer-last {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footer-lastbox {
+        height: 40px;
+        width: 40%;
+        color: white;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
