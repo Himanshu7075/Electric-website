@@ -8,7 +8,7 @@
 }
 
 .background-image {
-    background-image: url("./photo/background image.jpg");
+    background-image: url("background image.jpg");
     height: 700px;
     width: 100%;
 }
@@ -98,23 +98,23 @@
 
 @keyframes photos {
     20% {
-        background-image: url("./photo/big box1.jpg");
+        background-image: url("big box1.jpg");
     }
 
     40% {
-        background-image: url("./photo/big box2.jpg")
+        background-image: url("big box2.jpg")
     }
 
     60% {
-        background-image: url("./photo/index photo1.avif")
+        background-image: url("index photo1.avif")
     }
 
     80% {
-        background-image: url("./photo/big box 4.webp")
+        background-image: url("big box 4.webp")
     }
 
     100% {
-        background-image: url("./photo/big box3.jpg")
+        background-image: url("big box3.jpg")
     }
 }
 
@@ -166,7 +166,7 @@
     height: 250px;
     width: 40%;
     margin-top: -130px;
-    background-image: url("./photo/our mission.webp");
+    background-image: url("our mission.webp");
     background-size: cover;
     border-radius: 8px;
 }
@@ -210,7 +210,7 @@
     height: 200px;
     width: 40%;
     margin-top: -30px;
-    background-image: url("./photo/empowering.jpg");
+    background-image: url("empowering.jpg");
     background-size: cover;
     border-radius: 8px;
 }
@@ -241,7 +241,7 @@
 .service-pic1 {
     height: 300px;
     width: 40%;
-    background-image: url("./photo/battery service pic1.png");
+    background-image: url("battery service pic1.png");
     background-size: cover;
     border-radius: 8px;
 }
@@ -249,7 +249,7 @@
 .service-pic2 {
     height: 310px;
     width: 40%;
-    background-image: url("./photo/battery service pic2.jpeg");
+    background-image: url("battery service pic2.jpeg");
     background-size: cover;
     border-radius: 8px;
 }
@@ -288,7 +288,7 @@
 }
 
 .revolution-pic {
-    background-image: url("./photo/revolution photo.jpeg");
+    background-image: url("revolution photo.jpeg");
     background-size: cover;
     height: 300px;
     width: 40%;
@@ -483,7 +483,7 @@ ul li {
 
 
 
-@media(min-width:300px) and (max-width:400px) {
+/* @media(min-width:300px) and (max-width:400px) {
     *{
         margin: 0;
         border: 0;
@@ -959,4 +959,4 @@ ul li {
         align-items: center;
     }
     
-}
+} */
