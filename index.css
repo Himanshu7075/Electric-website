@@ -310,8 +310,8 @@
 .footer {
     height: 300px;
     width: 100%;
-    color: white;
-    background-color: rgb(0, 0, 83);
+    color: rgb(194, 194, 194);
+    background-color: rgb(0, 0, 31);
 }
 
 .footer-box {
@@ -331,7 +331,7 @@
 }
 
 .footer-box1-upper-text {
-    font-size: 1.3rem;
+    font-size: 1rem;
     margin-left: 5%;
 }
 
