@@ -356,6 +356,7 @@
 .footer-input {
     margin-top:5%;
     width: 90%;
+    border-radius: 3px;
 }
 
 .footer-box1-submit {
@@ -483,7 +484,9 @@ ul li {
 
 
 
-/* @media(min-width:300px) and (max-width:400px) {
+ @media(min-width:300px) and (max-width:400px) {
+
+
     *{
         margin: 0;
         border: 0;
@@ -494,18 +497,19 @@ ul li {
     }
     
     .background-image {
-        background-image: url("./photo/background image.jpg");
-        height: 450px;
+        background-image: url("background image.jpg");
+        height: 300px;
         width: 100%;
+        background-size: cover;
     }
     
     .nev {
-        height: 60px;
+        height: 40px;
         width: 100%;
     }
     .nevbar {
         display: flex;
-        height: 60px;
+        height: 40px;
         width: 100%;
         justify-content: center;
         align-items: center;
@@ -515,29 +519,27 @@ ul li {
     }
     
     .left-logo{
-        height: 10px;
-        width: 20px;
+        height: 15px;
+        width: 30px;
         background-size: cover;
-        margin: -10px 0px 20px 10px;
+        margin: -10px 0px 10px 10px;
     }
     
     .left-logo-text{
         color: rgb(206, 206, 206);
-        font-size: 0.7rem;
-        font-weight: 700;
-        margin-left: 10px;
+        font-weight: 550;
+        font-size: 0.6rem;
         font-family: 'Times New Roman', Times, serif;
     }
     .mid{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        margin-right: 6%;
         
     }
     .mid1{
         text-decoration: none;
-        font-size: 0.5rem;
         color: white;
+        margin-right: 20px;
+        font-size: 0.5rem;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     
@@ -547,8 +549,12 @@ ul li {
     }
     
     .main{
-        height: 300px;
+        height: 200px;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
     }
     
     .main-text {
@@ -559,44 +565,45 @@ ul li {
     }
     
     .main-text1 {
-        font-size: 1.2rem;
-        margin-top: 35%;
-        margin-left: 5%;
+        font-size: 1rem;
+        margin-top: 30%;
+        margin-left: 15%;
     }
     
     .main-text2 {
         font-size: 2rem;
         margin-left: 5%;
+        margin-top: 10px;
     }
     
     .main-pic {
         background-size: cover;
         border-radius: 10px;
         height: 150px;
-        width: 60%;
+        width: 80%;
         box-shadow: -4px 4px 10px 15px;
         animation: photos 10s step-start 2s infinite;
     }
     
     @keyframes photos {
         20% {
-            background-image: url("./photo/big box1.jpg");
+            background-image: url("big box1.jpg");
         }
     
         40% {
-            background-image: url("./photo/big box2.jpg")
+            background-image: url("big box2.jpg")
         }
     
         60% {
-            background-image: url("./photo/index photo1.avif")
+            background-image: url("index photo1.avif")
         }
     
         80% {
-            background-image: url("./photo/big box 4.webp")
+            background-image: url("big box 4.webp")
         }
     
         100% {
-            background-image: url("./photo/big box3.jpg")
+            background-image: url("big box3.jpg")
         }
     }
     
@@ -605,7 +612,7 @@ ul li {
     }
     
     .main2 {
-        height: 8%;
+        height: 4%;
         width: 40%;
         color: white;
         font-size: 1rem;
@@ -614,7 +621,7 @@ ul li {
     
     .our-mission {
         background-color: rgb(240, 240, 240);
-        height: 200px;
+        height: 500px;
         width: 100%;
         border-top: 1px solid rgb(255, 255, 255);
         margin-top: 30px;
@@ -624,8 +631,8 @@ ul li {
         margin-top: 100px;
     }
     .our-mission-heading {
-        font-size: 3rem;
-        margin-left: 10%;
+        font-size: 1.5rem;
+        margin-left: 5%;
         color: rgb(0, 0, 0);
     }
     
@@ -639,16 +646,16 @@ ul li {
     .our-mission-content-para {
         height:300px;
         width: 40%;
-        font-size: 1.1rem;
+        font-size: 0.7rem;
         margin-top: 20px;
         color: rgb(0, 0, 0);
     }
     
     .our-mission-content-pic {
-        height: 250px;
-        width: 40%;
+        height: 100px;
+        width: 50%;
         margin-top: -130px;
-        background-image: url("./photo/our mission.webp");
+        background-image: url("our mission.webp");
         background-size: cover;
         border-radius: 8px;
     }
@@ -675,9 +682,9 @@ ul li {
     }
     
     .empoering-heading2 {
-        font-size: 2rem;
-        margin-top: 80px;
-        margin-left: 53%;
+        font-size: 1.2rem;
+        margin-top: 20px;
+        margin-left: 60%;
         color: rgb(0, 0, 0);
     }
     
@@ -689,30 +696,30 @@ ul li {
     }
     
     .empoering-content-pic {
-        height: 200px;
+        height: 150px;
         width: 40%;
-        margin-top: -30px;
-        background-image: url("./photo/empowering.jpg");
+        background-image: url("empowering.jpg");
         background-size: cover;
         border-radius: 8px;
     }
     
     .empoering-content-para {
-        height: 100px;
+        height: 130px;
         width: 35%;
-        text-align: center;
+        font-size: 0.7rem;
+        margin-top: 30px;
         color: rgb(0, 0, 0);
     }
     
     .service {
-        height: 470px;
+        height: 230px;
         width: 100%;
         margin-top: 30px;
         border-bottom: 1px solid gray;
     }
     
     .service-pic {
-        height: 350px;
+        height: 150px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -721,17 +728,17 @@ ul li {
     }
     
     .service-pic1 {
-        height: 300px;
+        height: 100px;
         width: 40%;
-        background-image: url("./photo/battery service pic1.png");
+        background-image: url("battery service pic1.png");
         background-size: cover;
         border-radius: 8px;
     }
     
     .service-pic2 {
-        height: 310px;
+        height: 100px;
         width: 40%;
-        background-image: url("./photo/battery service pic2.jpeg");
+        background-image: url("battery service pic2.jpeg");
         background-size: cover;
         border-radius: 8px;
     }
@@ -741,11 +748,11 @@ ul li {
     .service-para-button {
         background-color: rgb(0,0,31);
         color: white;
-        height: 40px;
-        width: 15%;
+        height: 30px;
+        width: 25%;
         border-radius: 8px;
-        font-size: 1.2rem;
-        margin: 20px 0px 0px 45%;
+        font-size: 0.8rem;
+        margin: 20px 0px 0px 38%;
         box-shadow: 5px 5px 10px 5px rgb(122, 122, 122);
     }
     
@@ -754,9 +761,8 @@ ul li {
     }
     
     .revolution {
-        height: 400px;
+        height: 300px;
         width: 100%;
-    
         display: flex;
         justify-content: center;
         align-items: center;
@@ -764,40 +770,40 @@ ul li {
     }
     
     .revolution-content {
-        height: 300px;
+        height: 200px;
         width: 40%;
         margin-top: 10%;
     }
     
     .revolution-pic {
-        background-image: url("./photo/revolution photo.jpeg");
+        background-image: url("revolution photo.jpeg");
         background-size: cover;
-        height: 300px;
+        height: 200px;
         width: 40%;
         border-radius: 7px;
     }
     
     .revolution-content-text1 {
-        font-size: 3rem;
-        font-weight: 700;
+        font-size: 1.3rem;
+        font-weight: 550;
         margin-left: 5%;
     }
     
     .revolution-content-text2 {
-        font-size: 1.1rem;
+        font-size: 0.7rem;
         color: rgb(74, 74, 74);
         margin-top: 15px;
     }
     
     .footer {
-        height: 300px;
+        height: 230px;
         width: 100%;
-        color: white;
-        background-color: rgb(0, 0, 83);
+        color: rgb(194, 194, 194);
+        background-color: rgb(0, 0, 31);
     }
     
     .footer-box {
-        height: 250px;
+        height: 200px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -807,13 +813,13 @@ ul li {
     }
     
     .footer-box1 {
-        height: 240px;
+        height: 120px;
         width: 50%;
         
     }
     
     .footer-box1-upper-text {
-        font-size: 1.3rem;
+        font-size: 0.8rem;
         margin-left: 5%;
     }
     
@@ -822,12 +828,11 @@ ul li {
         justify-content: center;
         align-items: center;
         justify-content: space-between;
-        font-size: 0.9rem;
-        margin-top: 2%;
+        font-size: 0.6rem;
     }
     
     .footer-box1-form {
-        height: 200px;
+        height: 100px;
         width: 45%;
     }
     
@@ -836,14 +841,17 @@ ul li {
     }
     
     .footer-input {
-        margin-top:5%;
-        width: 90%;
+        height: 8px;
+        width: 95%;
+        margin-top: 2%;
+        border-radius: 3px;
     }
     
     .footer-box1-submit {
-        height: 25px;
-        width: 120px;
-        margin: 8% 0% 0% 30%;
+        height: 10px;
+        width: 80px;
+        font-size: 0.5rem;
+        margin: 8% 0% 0% 10%;
         border-radius: 4px;
     }
     
@@ -852,14 +860,14 @@ ul li {
     }
     
     .footer-box2-text {
-        height: 200px;
+        height: 100px;
         width: 45%;
     }
     
     
     .footer-box2-text1 {
-        font-size: 1.2rem;
-        margin-left: 8%;
+        font-size: 0.9rem;
+        margin-left: 5%;
     }
     
     ul {
@@ -868,10 +876,12 @@ ul li {
     
     ul li {
         margin-top: 2%;
+        font-size: 0.5rem;
+        margin-left: -30px;
     }
     
     .footer-box2 {
-        height: 240px;
+        height: 120px;
         width: 45%;
         display: flex;
         justify-content: center;
@@ -881,18 +891,18 @@ ul li {
     }
     
     .contactus {
-        height: 220px;
+        height: 100px;
         width: 45%;
     }
     
     .contactus-text {
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: gray;
         margin-left: 20%;
     }
     
     .contactus-whatsup {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
         margin-top: 10px;
     }
     
@@ -901,13 +911,14 @@ ul li {
     }
     
     .contactus-phone-heading {
-        font-size: 20px;
+        font-size: 10px;
         font-weight: 900;
         margin: 8% 0% 0% 5%;
     }
     
     .contactus-phone-text {
         margin: 10% 0% 0% 3%;
+        font-size: 7px;
     }
     
     .contactus-email {
@@ -915,34 +926,36 @@ ul li {
     }
     
     .contactus-email-heading {
-        font-size: 20px;
+        font-size: 10px;
         font-weight: 900;
         margin: 5% 0% 0% 5%;
     }
     
     .contactus-email-text {
         margin: 6% 0% 0% 3%;
+        font-size: 7px;
     }
     
     .address {
-        height: 220px;
+        height: 110px;
         width: 45%;
     }
     
     .address-text {
-        font-size: 1.5rem;
+        font-size: 1rem;
         color: gray;
         margin-left: 25%;
     }
     
     .address-box {
-        height: 100px;
+        height: 50px;
         width: 80%;
         margin: 5% 0% 0% 15%;
+        font-size: 0.7rem;
     }
     
     .footer-last {
-        height: 50px;
+        height: 30px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -950,13 +963,12 @@ ul li {
     }
     
     .footer-lastbox {
-        height: 40px;
-        width: 40%;
+        height: 20px;
+        width: 70%;
         color: white;
-        font-size: 1rem;
+        font-size: 0.5rem;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    
-} */
+} 
