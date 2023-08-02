@@ -580,7 +580,7 @@ ul li {
         background-size: cover;
         border-radius: 10px;
         height: 150px;
-        width: 80%;
+        width: 70%;
         box-shadow: -4px 4px 10px 15px;
         animation: photos 10s step-start 2s infinite;
     }
@@ -644,7 +644,7 @@ ul li {
     }
     
     .our-mission-content-para {
-        height:300px;
+        height:400px;
         width: 40%;
         font-size: 0.7rem;
         margin-top: 20px;
@@ -707,7 +707,7 @@ ul li {
         height: 130px;
         width: 35%;
         font-size: 0.7rem;
-        margin-top: 30px;
+        margin-top: 20px;
         color: rgb(0, 0, 0);
     }
     
@@ -815,6 +815,7 @@ ul li {
     .footer-box1 {
         height: 120px;
         width: 50%;
+        margin-top: -40px;
         
     }
     
@@ -845,6 +846,7 @@ ul li {
         width: 95%;
         margin-top: 2%;
         border-radius: 3px;
+        font-size: 0.4rem;
     }
     
     .footer-box1-submit {
@@ -883,6 +885,7 @@ ul li {
     .footer-box2 {
         height: 120px;
         width: 45%;
+        margin-top: -40px;
         display: flex;
         justify-content: center;
         justify-content: space-evenly;
