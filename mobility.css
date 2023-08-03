@@ -390,3 +390,433 @@ ul li {
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
+@media(min-width:300px) and (max-width:400px) {
+
+
+    *{
+        margin: 0;
+        border: 0;
+        border: border-box;
+    }
+    .header {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .background-image {
+        background-image: url("background image.jpg");
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .nev {
+        height: 40px;
+        width: 100%;
+    }
+    .nevbar {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 31);
+        position: fixed;
+    }
+    
+    .left-logo{
+        height: 15px;
+        width: 30px;
+        background-size: cover;
+        margin: -10px 0px 10px 10px;
+    }
+    
+    .left-logo-text{
+        color: rgb(206, 206, 206);
+        font-weight: 550;
+        font-size: 0.6rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .mid{
+        margin-right: 6%;
+        
+    }
+    .mid1{
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        font-size: 0.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .mid1:hover {
+        color: rgb(120, 120, 120);
+        text-decoration: underline;
+    }
+
+
+
+
+
+
+    .big-box1 {
+        height: 300px;
+        width: 100%;
+        background-image: url("green mobility.jpg");
+        background-size: cover;
+    }
+    
+    .big-box1-content1 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .big-box1-content1-para1 {
+        height: 20%;
+        width: 55%;
+        font-size: 2rem;
+        color: rgb(0, 0, 255);
+        margin-top: 2%;
+        font-weight: 700;
+        opacity: 70;
+    }
+    
+    .big-box1-para {
+        display: flex;
+        align-items: center;
+    }
+    
+    .big-box1-para-box {
+        height: 150px;
+        width: 100%;
+        margin-top: 9%;
+        margin-left: 3%;
+        font-size: 1.1rem;
+        font-weight: 530;
+    }
+    
+    .big-box1-para-box1 {
+        height: 50px;
+        width: 70%;
+        background-color: rgb(111, 216, 118);
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+    
+    .big-box1-para-box2 {
+        height: 100px;
+        width: 100%;
+        font-size: 0.9rem;
+        background-color: rgb(188, 216, 111);
+    }
+    
+    .big-box2 {
+        height: 1830px;
+        width: 100%;
+    }
+    
+    .mobility-para-box {
+        height: 220px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7%;
+    }
+    
+    .mobility-heading {
+        height: 40px;
+        width: 35%;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: rgb(80, 80, 80);
+    }
+    
+    .mobility-text {
+        height: 210px;
+        width: 60%;
+        font-size: 1rem;
+        color: rgb(80, 80, 80);
+        font-weight: 540;
+    }
+    
+    .big-box2-boxes {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        margin-top: 1.4%;
+    }
+    
+    .sustanable-pic {
+        height: 80px;
+        width: 31%;
+    }
+    
+    .big-box2-road-pic1 {
+        background-image: url("sustanable pic1.jpg");
+        background-size: cover;
+    }
+    
+    .big-box2-road-pic2 {
+        background-image: url("sustanable pic2.jpg");
+        background-size: cover;
+    }
+    
+    .big-box2-road-pic3 {
+        background-image: url("sustanable pic3.jpg");
+        background-size: cover;
+    }
+    
+    .mobility-bigbox {
+        height: 600px;
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .mobility-bigbox-box {
+        height: 170px;
+        width: 100%;
+        display: flex;
+        margin-top: 0.8%;
+    }
+    
+    .mobility-bigbox-box-heading {
+        height: 60px;
+        width: 45%;
+        font-size: 1.2rem;
+        font-weight: 549;
+    }
+    
+    .mobility-bigbox-box-text {
+        height: 140px;
+        width: 80%;
+        font-size: 1rem;
+        color: rgb(80, 80, 80);
+    }
+    
+    .line {
+        width: 100%;
+        border: 0.1px solid gray;
+        margin-top: 0.1%;
+    }
+    
+    .big-box2-water-pic1 {
+        background-image: url("water mobility pic1.jpg");
+        background-size: cover;
+    }
+    
+    .big-box2-water-pic2 {
+        background-image: url("water mobility pic2.jpeg");
+        background-size: cover;
+    }
+    
+    .big-box2-water-pic3 {
+        background-image: url("water mobility pic3.jpg");
+        background-size: cover;
+    }
+    
+    .last-bigbox {
+        height: 360px;
+        width: 100%;
+        color: white;
+        background-color: rgb(108, 108, 108);
+    }
+    
+    .last-bigbox1{
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+    
+    .last-bigbox2 {
+        font-size: 1rem;
+        margin-top: 3.3%;
+    }
+
+    .footer {
+        height: 250px;
+        width: 100%;
+        color: rgb(194, 194, 194);
+        background-color: rgb(0, 0, 31);
+    }
+    
+    .footer-box {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 1px solid black;
+    }
+    
+    .footer-box1 {
+        height: 120px;
+        width: 50%;
+        margin-top: -40px;
+        
+    }
+    
+    .footer-box1-upper-text {
+        font-size: 0.8rem;
+        margin-left: 5%;
+    }
+    
+    .footer-box1-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.6rem;
+    }
+    
+    .footer-box1-form {
+        height: 100px;
+        width: 45%;
+    }
+    
+    .footer-box1-form-input {
+        margin: 0% 0px 0px 8%;
+    }
+    
+    .footer-input {
+        height: 4px;
+        width: 95%;
+        margin-top: 2%;
+        border-radius: 3px;
+        font-size: 0.4rem;
+    }
+    
+    .footer-box1-submit {
+        height: 10px;
+        width: 80px;
+        font-size: 0.5rem;
+        margin: 8% 0% 0% 10%;
+        border-radius: 4px;
+    }
+    
+    .footer-box1-submit:hover {
+        background-color: rgb(172, 172, 172);
+    }
+    
+    .footer-box2-text {
+        height: 100px;
+        width: 45%;
+    }
+    
+    
+    .footer-box2-text1 {
+        font-size: 0.9rem;
+        margin-left: 5%;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    ul li {
+        margin-top: 2%;
+        font-size: 0.5rem;
+        margin-left: -30px;
+    }
+    
+    .footer-box2 {
+        height: 120px;
+        width: 45%;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        border-left: 1px solid red;
+    }
+    
+    .contactus {
+        height: 100px;
+        width: 45%;
+    }
+    
+    .contactus-text {
+        font-size: 1rem;
+        color: gray;
+        margin-left: 20%;
+    }
+    
+    .contactus-whatsup {
+        font-size: 0.5rem;
+        margin-top: 10px;
+    }
+    
+    .contactus-phone {
+        display: flex;
+    }
+    
+    .contactus-phone-heading {
+        font-size: 10px;
+        font-weight: 900;
+        margin: 8% 0% 0% 5%;
+    }
+    
+    .contactus-phone-text {
+        margin: 10% 0% 0% 3%;
+        font-size: 7px;
+    }
+    
+    .contactus-email {
+        display: flex;
+    }
+    
+    .contactus-email-heading {
+        font-size: 10px;
+        font-weight: 900;
+        margin: 5% 0% 0% 5%;
+    }
+    
+    .contactus-email-text {
+        margin: 6% 0% 0% 3%;
+        font-size: 7px;
+    }
+    
+    .address {
+        height: 110px;
+        width: 45%;
+    }
+    
+    .address-text {
+        font-size: 1rem;
+        color: gray;
+        margin-left: 25%;
+    }
+    
+    .address-box {
+        height: 50px;
+        width: 80%;
+        margin: 5% 0% 0% 15%;
+        font-size: 0.7rem;
+    }
+    
+    .footer-last {
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .footer-lastbox {
+        height: 20px;
+        width: 70%;
+        color: white;
+        font-size: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
