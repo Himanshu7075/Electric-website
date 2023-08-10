@@ -465,7 +465,7 @@ ul li {
 
 
     .big-box1 {
-        height: 300px;
+        height: 400px;
         width: 100%;
         background-image: url("green mobility.jpg");
         background-size: cover;
@@ -509,7 +509,7 @@ ul li {
     }
     
     .big-box1-para-box2 {
-        height: 100px;
+        height: 150px;
         width: 100%;
         font-size: 0.9rem;
         background-color: rgb(188, 216, 111);
@@ -540,9 +540,8 @@ ul li {
     .mobility-text {
         height: 210px;
         width: 60%;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: rgb(80, 80, 80);
-        font-weight: 540;
     }
     
     .big-box2-boxes {
@@ -597,7 +596,7 @@ ul li {
     .mobility-bigbox-box-text {
         height: 140px;
         width: 80%;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: rgb(80, 80, 80);
     }
     
@@ -723,7 +722,7 @@ ul li {
     ul li {
         margin-top: 2%;
         font-size: 0.5rem;
-        margin-left: -30px;
+        margin-left: 30px;
     }
     
     .footer-box2 {
