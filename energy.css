@@ -495,7 +495,6 @@ ul li {
         width: 45%;
         color: rgb(0, 0, 0);
         font-size: 0.8rem;
-        font-weight: 530;
     }
     
     .product-boxes {
@@ -677,6 +676,7 @@ ul li {
     ul li {
         margin-top: 2%;
         font-size: 0.5rem;
+        margin-left: -3px;
     }
     
     .footer-box2 {
