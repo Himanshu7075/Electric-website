@@ -367,3 +367,411 @@ ul li {
     justify-content: center;
     align-items: center;
 }
+
+
+@media(min-width:300px) and (max-width:400px) {
+
+
+    *{
+        margin: 0;
+        border: 0;
+        border: border-box;
+    }
+    .header {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    .background-image {
+        background-image: url("background image.jpg");
+        height: 300px;
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .nev {
+        height: 40px;
+        width: 100%;
+    }
+    .nevbar {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(0, 0, 31);
+        position: fixed;
+    }
+    
+    .left-logo{
+        height: 15px;
+        width: 30px;
+        background-size: cover;
+        margin: -10px 0px 10px 10px;
+    }
+    
+    .left-logo-text{
+        color: rgb(206, 206, 206);
+        font-weight: 550;
+        font-size: 0.6rem;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .mid{
+        margin-right: 6%;
+        
+    }
+    .mid1{
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        font-size: 0.5rem;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .mid1:hover {
+        color: rgb(120, 120, 120);
+        text-decoration: underline;
+    }
+
+
+
+
+
+
+
+
+
+    .big-box1 {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        background-image: url("battery1.jpg");
+        background-size: cover;
+    }
+    
+    .big-box1-content1 {
+        height: 20%;
+        width: 45%;
+        opacity: 3;
+        background-color: blue;
+    }
+    
+    .big-box1-content1-para1 {
+        font-size: 2rem;
+        color: rgb(0, 213, 255);
+        margin-left: 10%;
+        font-weight: 700;
+    }
+    
+    
+    .empoering-bignev {
+        margin-top: 10px;
+    }
+    
+    
+    .empoering-content {
+        height: 550px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .empoering-content-pic {
+        height: 200px;
+        width: 40%;
+        margin-top: 30px;
+        background-size: cover;
+        border-radius: 8px;
+        font-size: 1.3rem;
+    }
+    
+    .empoering-content-para {
+        height: 450px;
+        width: 45%;
+        color: rgb(0, 0, 0);
+        font-size: 0.8rem;
+        font-weight: 530;
+    }
+    
+    .product-boxes {
+        height:450px;
+        width: 100%;
+        border-top: 1px solid rgb(80, 80, 80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .product-box-main-heading {
+        height: 50px;
+        width: 25%;
+        font-size: 1.3rem;
+        font-weight: 530;
+    }
+    
+    .product-box {
+        height: 290px;
+        width: 22%;
+        border: 1.5px solid black;
+        background-color: rgb(212, 212, 212);
+    }
+    
+    .product-box-heading {
+        color: orange;
+        font-size: 0.8rem;
+    
+        padding: 10px;
+    }
+    
+    .product-box-text {
+        color: rgb(43, 43, 43);
+        font-size: 0.4rem;
+        padding: 10px;
+    }
+    
+    .service-boxes {
+        height: 600px;
+        width: 100%;
+        border-top: 1px solid rgb(80, 80, 80);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .service-box-main-heading {
+        height: 50px;
+        width: 25%;
+        font-size: 1rem;
+        font-weight: 530;
+    }
+    
+    .service-box {
+        height: 450px;
+        width: 70%;
+        border: 1.5px solid black;
+        background-color: rgb(212, 212, 212);
+    }
+    
+    .service-box-heading {
+        color: orange;
+        font-size: 1rem;
+        padding: 5px;
+        padding-top: 10px;
+    }
+    
+    .service-box-text {
+        color: rgb(43, 43, 43);
+        font-size: 0.6rem;
+        padding: 3px;
+    }
+    
+    .quality {
+        height: 300px;
+        width: 98%;
+        margin-left: 15px;
+        border-top: 1px solid rgb(80, 80, 80);
+    }
+    
+    .quality-heading {
+        font-size: 1.3rem;
+        font-weight: 530;
+        padding: 5px 0px 15px 0px;
+    }
+    
+    .quality-text {
+        font-size: 0.8rem;
+        color: rgb(43, 43, 43);
+    }
+    
+
+
+
+    .footer {
+        height: 250px;
+        width: 100%;
+        color: rgb(194, 194, 194);
+        background-color: rgb(0, 0, 31);
+    }
+    
+    .footer-box {
+        height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        border-bottom: 1px solid black;
+    }
+    
+    .footer-box1 {
+        height: 120px;
+        width: 50%;
+        margin-top: -40px;
+        
+    }
+    
+    .footer-box1-upper-text {
+        font-size: 0.8rem;
+        margin-left: 5%;
+    }
+    
+    .footer-box1-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 0.6rem;
+    }
+    
+    .footer-box1-form {
+        height: 100px;
+        width: 45%;
+    }
+    
+    .footer-box1-form-input {
+        margin: 0% 0px 0px 8%;
+    }
+    
+    .footer-input {
+        height: 4px;
+        width: 95%;
+        margin-top: 2%;
+        border-radius: 3px;
+        font-size: 0.4rem;
+    }
+    
+    .footer-box1-submit {
+        height: 10px;
+        width: 80px;
+        font-size: 0.5rem;
+        margin: 8% 0% 0% 10%;
+        border-radius: 4px;
+    }
+    
+    .footer-box1-submit:hover {
+        background-color: rgb(172, 172, 172);
+    }
+    
+    .footer-box2-text {
+        height: 100px;
+        width: 45%;
+    }
+    
+    
+    .footer-box2-text1 {
+        font-size: 0.9rem;
+        margin-left: 5%;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    ul li {
+        margin-top: 2%;
+        font-size: 0.5rem;
+        margin-left: 30px;
+    }
+    
+    .footer-box2 {
+        height: 120px;
+        width: 45%;
+        margin-top: -40px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        border-left: 1px solid red;
+    }
+    
+    .contactus {
+        height: 100px;
+        width: 45%;
+    }
+    
+    .contactus-text {
+        font-size: 1rem;
+        color: gray;
+        margin-left: 20%;
+    }
+    
+    .contactus-whatsup {
+        font-size: 0.5rem;
+        margin-top: 10px;
+    }
+    
+    .contactus-phone {
+        display: flex;
+    }
+    
+    .contactus-phone-heading {
+        font-size: 10px;
+        font-weight: 900;
+        margin: 8% 0% 0% 5%;
+    }
+    
+    .contactus-phone-text {
+        margin: 10% 0% 0% 3%;
+        font-size: 7px;
+    }
+    
+    .contactus-email {
+        display: flex;
+    }
+    
+    .contactus-email-heading {
+        font-size: 10px;
+        font-weight: 900;
+        margin: 5% 0% 0% 5%;
+    }
+    
+    .contactus-email-text {
+        margin: 6% 0% 0% 3%;
+        font-size: 7px;
+    }
+    
+    .address {
+        height: 110px;
+        width: 45%;
+    }
+    
+    .address-text {
+        font-size: 1rem;
+        color: gray;
+        margin-left: 25%;
+    }
+    
+    .address-box {
+        height: 50px;
+        width: 80%;
+        margin: 5% 0% 0% 15%;
+        font-size: 0.7rem;
+    }
+    
+    .footer-last {
+        height: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+    
+    .footer-lastbox {
+        height: 20px;
+        width: 70%;
+        color: white;
+        font-size: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
