@@ -494,7 +494,7 @@ ul li {
         height: 450px;
         width: 45%;
         color: rgb(0, 0, 0);
-        font-size: 0.8rem;
+        font-size: 0.75rem;
     }
     
     .product-boxes {
@@ -639,8 +639,8 @@ ul li {
     }
     
     .footer-input {
-        height: 4px;
-        width: 95%;
+        height: 10px;
+        width: 100%;
         margin-top: 2%;
         border-radius: 3px;
         font-size: 0.4rem;

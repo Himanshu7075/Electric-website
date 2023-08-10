@@ -685,8 +685,8 @@ ul li {
     }
     
     .footer-input {
-        height: 4px;
-        width: 95%;
+        height: 10px;
+        width: 100%;
         margin-top: 2%;
         border-radius: 3px;
         font-size: 0.4rem;
