@@ -473,7 +473,7 @@ ul li {
     
     
     .empoering-content {
-        height: 550px;
+        height: 600px;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -677,7 +677,6 @@ ul li {
     ul li {
         margin-top: 2%;
         font-size: 0.5rem;
-        margin-left: 30px;
     }
     
     .footer-box2 {
